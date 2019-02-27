@@ -1,0 +1,232 @@
+
+.topbar{
+overflow: hidden;
+background-color:  #404040;
+display: flex;
+font-size: 14px;
+font-family: arial;
+font-style: bold;
+}
+
+.topbar a{
+display: flex;
+color: #f2f2f2;
+padding: 15px;
+text-decoration: none;
+}
+
+    .tophom{
+    font-style: bold;
+    background: #5CD6C7
+    }
+
+    .topgal{
+    font-style: bold;
+    background: #5CD6C7
+    }
+
+    .topexh{
+    font-style: bold;
+    background: #5CD6C7
+    }
+
+    .topabo{
+    font-style: bold;
+    background: #5CD6C7
+    }
+
+
+.selection {
+position: relative;
+width: 100%;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+opacity: 1;
+
+}
+
+.selection h2 {
+color: #ffffff;
+border-radius: 10px;
+text-align: center;
+font-size: 100px;
+font-family: Arial;
+background: #5CD6C7;
+opacity: 0.7;
+padding: 20px;
+z-index: 1;
+}
+
+
+.vcontainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.overlay{
+position: absolute;
+top:0;
+left:0;
+width: 100%;
+height: 100vh;
+background: #66a3ff;
+opacity: 0.2;
+}
+
+
+.top2 {
+  background-image: url(/Users/mictra/Desktop/Coding/back.jpg);
+  background-size: cover;
+  text-align: center;
+  font-family: Arial;
+  color: #EAEAEA;
+}
+
+
+
+img {
+Width: 80%;
+margin-top: 10px;
+}
+
+
+.galleri {
+  background:  #1a1a1a;
+  padding: 10px;
+  border: 0px solid #bf80ff;
+  font-family: Arial;
+  color:  #4d4d4d;
+  font-size: 14px;
+}
+
+.galleri h2{
+  font-family: Arial;
+  color:  #ffffff;
+  font-size: 40px;
+  padding-left: 30px;
+}
+
+.galleri p{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #cccccc
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.exhibitions{
+background: #5CD6C7;
+opacity: 1;
+margin: 0;
+
+}
+
+.exhibitions h2 {
+  color: #ffffff;
+  padding-top: 50px;
+  padding-left: 30px;
+  margin: 0px;
+  font-size: 40px;
+  font-family: Arial
+
+}
+
+.exhibitions ul {
+  font-size: 15px;
+  margin-left: 150px;
+  color: #ffffff;
+  font-family: Arial;
+  padding-bottom: 40px;
+}
+
+
+.exhibitions p {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Arial
+}
+
+
+.vernissage {
+padding-top: 70px;
+padding-bottom: 200px;
+
+}
+
+.vernissage img{
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.vernissage p{
+  margin-left: 15%;
+}
+
+
+.about {
+  background:   #5CD6C7;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+.about p{
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding-left: 30px;
+}
+
+.about h2{
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 40px;
+  padding-left: 30px;
+}
+
+.link {
+margin-left: 5%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+color: #ffffff;
+font-family: Arial;
+font-size: 15px;
+padding-bottom: 20px;
+
+}
+
+.about img{
+  width: 10%;
+  padding: 20px;
+}
+
+
+.oland img{
+  width: 40%;
+  margin-left: 10%;
+  padding-top: 10px;
+}
+
+.oland {
+  background:   #5CD6C7;
+
+}
+
+.border {
+border-width: thin;
+border-style: dashed;
+border-color: #ffffff;
+border-radius: 0px;
+-}
