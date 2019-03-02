@@ -79,14 +79,6 @@ background: #66a3ff;
 opacity: 0.2;
 }
 
-
-
-img {
-Width: 80%;
-margin-top: 10px;
-}
-
-
 .galleri {
   background:  #1a1a1a;
   padding: 10px;
@@ -107,6 +99,14 @@ margin-top: 10px;
   font-family: sans-serif;
   font-weight: bold;
   color: #cccccc
+}
+
+.container img {
+width:80%;
+}
+
+.box {
+  width: 30%;
 }
 
 .container {
